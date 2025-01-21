@@ -27,19 +27,68 @@
         }
         h2 {
             color: #666;
+            margin-top: 30px;
         }
         p {
             color: #444;
         }
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature-list li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f8f8f8;
+            border-radius: 4px;
+        }
+        .contact-info {
+            background-color: #e8e8e8;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .updates {
+            border-left: 4px solid #666;
+            padding-left: 15px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome!</h1>
-    <p>This is a simple webpage created with Claude's help.</p>
     <div class="container">
+        <h1>Welcome!</h1>
+        <p>This is a simple webpage created with Claude's help.</p>
+        
         <section>
             <h2>About</h2>
-            <p>This page demonstrates basic HTML structure.</p>
+            <p>This page demonstrates basic HTML structure and CSS styling techniques.</p>
+        </section>
+
+        <section>
+            <h2>Features</h2>
+            <ul class="feature-list">
+                <li>Responsive design</li>
+                <li>Modern typography</li>
+                <li>Clean layout</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Latest Updates</h2>
+            <div class="updates">
+                <p><strong>January 2025:</strong> Added new content sections</p>
+                <p><strong>January 2025:</strong> Implemented CSS styling</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Email: example@domain.com</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Address: 123 Web Street, Internet City</p>
+            </div>
         </section>
     </div>
 </body>
